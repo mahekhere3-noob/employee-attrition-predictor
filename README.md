@@ -44,10 +44,23 @@ Python · pandas · scikit-learn
 
 ## 🚀 Getting Started
 
+### Run the script
+
 ```bash
 pip install pandas scikit-learn
 python employee_attrition_prediction.py
 ```
+
+### Run the web app
+
+```bash
+pip install streamlit pandas scikit-learn matplotlib
+streamlit run app.py
+```
+
+The app opens automatically in your browser at `http://localhost:8501`. Enter an employee profile, hit **Predict Attrition Risk**, and see the result alongside a chart of what actually drives the model's decisions.
+
+**[ Screenshot pending — insert a screenshot of the running app here ]**
 
 ---
 
